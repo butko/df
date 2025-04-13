@@ -4,15 +4,12 @@ tt, pre	{font-family:sans-serif; white-space:pre; font-size:80%;}
 a:link	{color:#001177}
 a:visited	{color:#336699}
 blockquote	{color:dimgray;}
-body	{background-color:#669999; margin-left:0px; margin-right:0px;}
 dt	{font-weight:bold}
 h1,h2,h3	{font-family:monospace;}
 h1,h3	{text-align:center;}
 h1 	{font-size:200%;}
 h2	{text-align:left; margin-top:30px; font-size:150%;}
 h3	{font-size:100%;}
-li.emule	{list-style-image:URL(http://ab-lib.narod.ru/banner/emule.gif);}
-li.ftp	{list-style-image:URL(http://ab-lib.narod.ru/banner/ftp.jpg);}
 ul	{list-style-type:square}
 
 .ascii	{font-family:monospace; font-size:130%}
@@ -41,6 +38,7 @@ float:left;}
 .tab 	{border-style:solid; border-width:1px; border-color:#cccccc;}
 
 /* ------------------ Версия 2 ------------------ */
+html, body	{background:#669999; margin:0; padding:0}
 .content {
     width: 800px;
     background: #FFFFFF;
