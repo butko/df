@@ -1,0 +1,41 @@
+iframe, embed, img, table {border-style:none;}
+tt, pre	{font-family:sans-serif; white-space:pre; font-size:80%;}
+
+a:link	{color:#001177}
+a:visited	{color:#336699}
+blockquote	{color:dimgray;}
+body	{background-color:#669999; margin-left:0px; margin-right:0px;}
+dt	{font-weight:bold}
+h1,h2,h3	{font-family:monospace;}
+h1,h3	{text-align:center;}
+h1 	{font-size:200%;}
+h2	{text-align:left; margin-top:30px; font-size:150%;}
+h3	{font-size:100%;}
+li.emule	{list-style-image:URL(http://ab-lib.narod.ru/banner/emule.gif);}
+li.ftp	{list-style-image:URL(http://ab-lib.narod.ru/banner/ftp.jpg);}
+ul	{list-style-type:square}
+
+.ascii	{font-family:monospace; font-size:130%}
+.code	{color:brown;}
+.o	{margin-left:30px;}
+.prose	{text-align:justify}
+.ramka	{border-color:#99CCCC; border-width:2px; border-style:solid;}
+.stream,.main,.block	{float:left;
+	padding: 5px;
+	margin:5px;
+	border-style:solid;
+	border-color:white;
+	border-width:1px;
+	display: inline;}
+.main, 	{width:55%;
+	background-color:white;}
+.block, .stream	{width:99%;
+	background-color:#99CCCC;}
+.panel	{width:20%;
+	display: inline;
+float:left;}
+.galfoto {floating:left;
+	display:inline;
+	border:0;
+	margin:2;}
+.tab 	{border-style:solid; border-width:1px; border-color:#cccccc;}

@@ -1,0 +1,27 @@
+<html><head><title>Просмотр изображения :: День Физика :: А.Б.иблиотека</title><link rel=stylesheet type="text/css" href="../text.css"><meta http-equiv=content-type content="text/html; charset=windows-1251"></head><body>
+<script src=nav.js></script>
+
+<table align=center cellspacing=10 cellpadding=10 width=100%><tr><td bgcolor=#99CCCC><small><b>Вы здесь:</b> 
+<script>
+function page(x,y)
+	{if (document.location!=x) {document.write("<a href=",x,">",y,"</a>")} 
+	else {document.write(y)}}
+
+function navigate(list,nav1,nav2) {
+	for(i=z; i>=0; i--) { flag=1;
+	for(j=0; j<30; j++) {
+		if (pm[i]==nav2[j]) {page(nav1[j],pm[i]); flag=0}}
+        	if (flag==1) {document.write(pm[i])}
+		if (i!=0) {document.write(" &gt; ")}}
+	document.write("<br><b>Что есть еще:</b> "); 
+	for(i=0; i<list; i++)
+		{document.write("<nobr>"); page(nav1[i],nav2[i]); document.write("</nobr>"); 
+		if (i!=list-1) {document.write(" <b>::</b> ")}}}
+
+var pm=document.title.split(' :: ');
+var z=0; while (pm[z]!="А.Б.иблиотека") {z++};
+navigate(list,nav1,nav2);
+</script></small></tr></table>
+<table width=95% bgcolor=white class=ramka align=center cellspacing=10><tr><td><script src=../vw.js></script></tr></table>
+<table align=center cellspacing=10 cellpadding=10 width=100%><tr><td bgcolor=#99CCCC><script src=../banner/bottom.js></script><br><small><a href=http://ab-lib.narod.ru>http://ab-lib.narod.ru</a><br><nobr>web-master &copy; <a href=mailto:abutko@gmail.com?subject=web_site>Бутко А.В.</a></small></nobr></tr></table>
+</body></html>
