@@ -23,6 +23,8 @@ if (document.location!="http://ab-lib.narod.ru/df/df_text_2009.htm") {document.w
 document.write("<li>");
 if (document.location!="http://ab-lib.narod.ru/df/df_text_2010.htm") {document.write("<a href=df_text_2010.htm>2010</a>, ")} else {document.write("<b>2010</b>, ")}
 if (document.location!="http://ab-lib.narod.ru/df/df_text_2011.htm") {document.write("<a href=df_text_2011.htm>2011</a>, ")} else {document.write("<b>2011</b>, ")}
-if (document.location!="http://ab-lib.narod.ru/df/df_text_2012.htm") {document.write("<a href=df_text_2012.htm>2012</a>")} else {document.write("<b>2012</b>")}
+if (document.location!="http://ab-lib.narod.ru/df/df_text_2012.htm") {document.write("<a href=df_text_2012.htm>2012</a>, ")} else {document.write("<b>2012</b>, ")}
+if (document.location!="http://ab-lib.narod.ru/df/df_text_2014.htm") {document.write("<a href=df_text_2014.htm>2014</a>")} else {document.write("<b>2014</b>")}
+
 
 document.write("</ul>");
